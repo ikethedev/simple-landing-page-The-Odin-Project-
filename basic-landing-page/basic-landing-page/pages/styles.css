@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Utlities classes */
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    padding: .5rem 0;
+}
+
+.flex{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0,0,0);
+    color: #FFF;
+}
+
+/* Nav Stylings */
+.hero_container{
+    background-color: #1F2937;
+    color: #FFF;
+    
+}
+
+.hero{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    justify-content: space-between;
+}
+
+h3{
+    flex: auto;
+}
+
+.nav{
+    padding: 20px 0;
+    justify-content: end;
+    gap: 20px;
+}
+
+.hero_left{
+    flex-direction: column;
+    align-content: center;
+    width: 50%;
+    gap: 1rem;
+}
+
+.hero_left > *{
+    align-self: start;
+}
+
+.hero_img{
+    width: 30em;
+    height: 20em;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero_left > p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.btn{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: .65rem 1.5rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+
+/* Random Information section  */
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+.image_gallery{
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 10rem;
+}
+.image_gallery > img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+/* Quote styling */
+
+.quote_container{
+    background-color: #E5E7EB;
+    padding: 4rem 10rem;
+    justify-content: center;
+}
+
+blockquote{
+    flex-direction: column;
+    max-width: 700px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+strong{
+    margin-top: 2rem;
+    text-align: right;
+}
+
+/* CTA Section */
+
+.cta{
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+   
+}
+.cta_container{
+    color: #ffffff;
+    border-radius: 1rem;
+    align-items: center;
+    padding: 3rem 7rem;
+    background-color: #3882F6;
+    gap: 5rem;
+}
+
+h4{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.cta_container > button {
+    font-size: 18px;
+    border: 1px solid #ffffff;
+    border-radius: 1rem;
+}
+
+/* Footer  */
+.footer{
+    background-color: #1F2937;
+    padding: 2rem ;
+    text-align: center;
+    color: #ffffff;
+}
